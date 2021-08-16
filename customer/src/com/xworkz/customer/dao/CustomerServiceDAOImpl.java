@@ -62,7 +62,7 @@ public class CustomerServiceDAOImpl implements CustomerServiceDAO {
 				System.out.println("Married is valid");
 				marriedValid = true;
 			} else {
-				System.out.println("married is not invlid");
+				System.out.println("married is not invalid");
 				marriedValid = false;
 			}
 			String passport = dto.getPassPortNo();
@@ -78,7 +78,7 @@ public class CustomerServiceDAOImpl implements CustomerServiceDAO {
 				System.out.println("EducationType is valid");
 				educationTypeValid = true;
 			} else {
-				System.out.println("EducationType is not invlid");
+				System.out.println("EducationType is not invalid");
 				educationTypeValid = false;
 			}
 			if (nameValid && fromValid && toValid && addressValid && marriedValid && passportValid && educationTypeValid) {
